@@ -1795,6 +1795,11 @@ ajv@^8.0.0, ajv@^8.8.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+an-array-of-spanish-words@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/an-array-of-spanish-words/-/an-array-of-spanish-words-2.0.0.tgz#2c89d2e32185470aca83bc0b67c52c2aae59955d"
+  integrity sha512-mzTXYjlzlT6RhQWeBpXgz0mtUkR1qNra6Zx68BRsMY5uejokblFW3d0asckbds5uacO/otrFPka2dWCr65gzmg==
+
 ansi-escapes@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"

@@ -203,7 +203,7 @@ export default {
       return state;
     },
     writeInBoxIndex(key) {
-      const new_key = key.replace(/[^a-z]/g, '')
+      const new_key = key.toLocaleLowerCase().replace(/[^a-z]/g, '')
       if (new_key.length == 1 && key != ' ' && this.letterIndex < boxSetting.column) {
         this.letterSetValue(new_key);
         this.letterMoveRight();
